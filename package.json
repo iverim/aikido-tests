@@ -84,7 +84,7 @@
     "zone.js": "0.14.4"
   },
   "resolutions": {
-    "send": "1.1.0"
+    "send": "0.18.0"
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "^17.0.1",
