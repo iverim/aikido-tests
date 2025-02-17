@@ -12,7 +12,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "webdriver-update": "webdriver-manager update",
-    "preinstall": "npx npm-force-resolutions",
     "e2e": "ng e2e"
   },
   "private": true,
@@ -42,6 +41,7 @@
     "@progress/kendo-angular-layout": "^16.10.0",
     "@progress/kendo-angular-menu": "^16.10.0",
     "@progress/kendo-angular-notification": "^16.10.0",
+    "@progress/kendo-angular-pdfviewer": "^16.11.0",
     "@progress/kendo-angular-popup": "^16.10.0",
     "@progress/kendo-angular-progressbar": "^16.10.0",
     "@progress/kendo-angular-toolbar": "^16.10.0",
@@ -73,18 +73,14 @@
     "ngx-loading": "^17.0.0",
     "ngx-mask": "^14.3.3",
     "ngx-toastr": "^18.0.0",
-    "npm-force-resolutions": "^0.0.10",
     "path": "^0.12.7",
-    "pdfjs-dist": "^4.6.82",
+    "pdfjs-dist": "4.7.76",
     "popper.js": "^1.14.3",
     "rxjs": "~7.8.1",
     "rxjs-compat": "^6.0.0",
     "sass": "^1.71.1",
     "tslib": "^2.3.1",
     "zone.js": "0.14.4"
-  },
-  "resolutions": {
-    "send": "0.19.0"
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "^17.0.1",
